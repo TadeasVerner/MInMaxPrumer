@@ -21,6 +21,7 @@ public class MinMax {
         int soucet = 0, pocet =0;
         // nekonečná smzčka
         while (true) {
+            //zvětším počítadlo vloéžených čísel
             System.out.print("vlož "+pocet+". číslo: ");
             int vstup = sc.nextInt ();
             // když uživatel vloží nulu, program skončí
